@@ -13,9 +13,11 @@ runs/loss_plot文件夹：模型运行时输出的一些优化器参数，可以
 
 build_vocab.py：从源文本建立词汇表。
 
+zh_vocab.pkl/en_vocab.pkl：建立好的词汇表，使用pickle命令存到该文件中。
+
 dataset.py：从源文本建立token化的数据集。
 
-zh_vocab.pkl/en_vocab.pkl：建立好的词汇表，使用pickle命令存到该文件中。
+utils.py：训练过程中用到的一些数据结构，比如存储模型、翻译例句。
 
 model.py：Transformer模型。
 
